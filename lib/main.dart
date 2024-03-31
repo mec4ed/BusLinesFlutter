@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Bus Lines',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.grey,
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.white38,
             brightness: Brightness.light),
         useMaterial3: true,
       ),
