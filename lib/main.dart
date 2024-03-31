@@ -6,10 +6,6 @@ import 'package:permission_handler/permission_handler.dart';
 import 'package:http/http.dart' as http;
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
-class Environment {
-  static const apiKey = String.fromEnvironment('GOOGLE_MAPS_KEY');
-}
-
 Future<PermissionStatus> requestLocationPermission() async {
   var status = await Permission.location.request();
   return status;
